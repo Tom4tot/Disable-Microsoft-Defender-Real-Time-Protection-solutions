@@ -32,16 +32,16 @@
 - Cons
   - RTP can potentially work for a few seconds a day
 
-## Method 3: Regedit (not recommended)
-- Cons
-  - It sometimes becomes outdated after updates
-  - It could lead to instabilities
-
-## Method 4: Windows Security UI (not recommended)
+## Method 3: Windows Security UI (not recommended)
 - Pros
   -  You can keep Tamper Protection enabled
 - Cons 
   - Your change won't stick after a certain period of time (the triggers are not documented by Microsoft) or after a reboot
+
+## Method 4: Regedit (not recommended)
+- Cons
+  - It sometimes becomes outdated after updates
+  - It could lead to instabilities
 
 ## Method 5: third-party softwares (not recommended)
 - Cons
