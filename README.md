@@ -30,7 +30,7 @@ Tamper Protection has to be disable from settings, it can't be disabled from any
 
 ## Method 3: Regedit (not recommended)
 - Cons
-  - It can easily become oudated after an updates
+  - It sometimes becomes outdated after updates
   - It could lead to instabilities
 
 ## Method 4: Windows Security UI (not recommended)
@@ -41,8 +41,7 @@ Tamper Protection has to be disable from settings, it can't be disabled from any
 
 ## Method 5: third-party softwares (not recommended)
 - Cons
-  - It can easily become oudated after an updates
+  - It sometimes becomes outdated after updates (or at least gets disabled)
   - You usually don't know what the program is actually doing
   - It can conflict with Windows native features and lead to instabilities
   - Lots of tools completely break Microsoft Defender and it becomes hard to recover it
-
