@@ -8,9 +8,13 @@
 - If you don't do that, Windows will block any third-party change, including ones from official components such as CMD or PowerShell.  
 - Tamper Protection has to be disable from settings, it can't be disabled from anywhere else. The change simply won't stick.
 
-### Better be safe than sorry
-- Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode ([simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
-- It also involves to disable Tamper protection.
+### Reasons to (not) disable RTP
+- Benefits:
+  - No more CPU usage and disk usage from "Antimalware Service Executable". RAM usage seems to be signifantly lower. 
+  - Improves privacy.
+- Drawbacks:
+  - Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode ([simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
+  - It also involves to disable Tamper protection.
 
 ## Method 1: Group Policy Editor (recommended)
 - How-to: `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection → Turn off real-time protection (enabled)`
