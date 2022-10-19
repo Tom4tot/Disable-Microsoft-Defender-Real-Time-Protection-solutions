@@ -3,6 +3,7 @@
 - I found out that this topic is more complex than I first thought. It's hard to find up-to-date information on the Internet and pros/cons of each method.
 - Solutions will be ranked from best to worst, in my opinion.
 ### Prerequisites and context
+**TL;DR: disable Tamper Protection with Windows Security, don't disable RTP with Windows Security, instead use Method 1 or 2.**  
 No matter which approach you choose (except the Windows Security one, which is by far the worst since your setting won't stick), **you have to** disable Tamper Protection from the Windows Security UI: `Windows Security → Virus and threat protection → Virus and threat protection settings → Tamper Protection → off`.  
 If you don't do that, Windows will block any third-party change, including ones from official components such as CMD or PowerShell.  
 Tamper Protection has to be disable from settings, it can't be disabled from anywhere else. The change simply won't stick.
