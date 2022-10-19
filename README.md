@@ -27,7 +27,7 @@
   -  Not very convenient to turn on and off
 
 ## Method 2: Task Scheduler - [Microsoft Defender Real-Time Protection stop](https://github.com/duttyend/Microsoft-Defender-RTP-stop) (recommended)
-- How-to: see instructions
+- How-to: see [instructions](https://github.com/duttyend/Microsoft-Defender-RTP-stop#usage-guide)
 - Pros: 
   - Only uses official Windows features and components (i.e. Task Scheduler and PowerShell).
   - Works natively on Windows Home edition
