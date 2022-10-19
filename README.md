@@ -1,4 +1,4 @@
-# Microsoft Defender Real-Time Protection solutions (Windows 11)
+# Disable Microsoft Defender Real-Time Protection - solutions (Windows 11)
 ### Purpose of this page  
 - I found out that this topic is more complex than I first thought. It's hard to find up-to-date information on the Internet and pros/cons of each method.
 - Solutions will be ranked from best to worst, in my opinion.
