@@ -18,7 +18,7 @@
 
 ## Method 1: Group Policy Editor (recommended)
 - How-to: 
-  -`Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection → Turn off real-time protection (enabled)`
+  - `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Real-time protection → Turn off real-time protection (enabled)`
   - Reenable without restarting: Enable the same policy and then, type in cmd `gpupdate /force`
 - Pros:
   - Native feature
